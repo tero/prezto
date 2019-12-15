@@ -28,11 +28,19 @@ zstyle ':prezto:*:*' color 'yes'
 # The order matters.
 zstyle ':prezto:load' pmodule \
   'environment' \
+  'archive' \
+  'docker' \
+  'git' \
   'terminal' \
   'editor' \
   'history' \
   'directory' \
+  'node' \
+  'python' \
+  'rsync' \
   'spectrum' \
+  'syntax-highlighting' \
+  'history-substring-search' \
   'utility' \
   'completion' \
   'prompt'
